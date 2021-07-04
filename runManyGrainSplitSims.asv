@@ -1,5 +1,0 @@
-thetas = [5,10
-
-strcat("jul4/r75/theta",theta,"/sim",compose('%02i',num))
-
-grainsplitsim("jul4/r75/theta5_01"
