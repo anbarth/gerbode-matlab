@@ -16,7 +16,7 @@ grainID = particleData(:,4); % 1 for central grain, 0 for mama grains
 radius = 5;
 makeDotsRad = 5; % make_dots acts like a baby if i give it non-integers
 
-step_size = 0.005; % typical MDSim value is 0.005 TODO make it small again
+step_size = 0.0025; % typical MDSim value is 0.005
 viscosity=1.99*10^-3;
 boltz_const = 1.381*(10^(-23));
 temp=300;

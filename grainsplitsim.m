@@ -13,8 +13,8 @@ mkdir(strcat("../grainsplits/",simName,"/snowflakes"))
 % also, a specs.txt file that includes details abt this simulation
 
 % thermalize both the initial and final particle positions
-thermalize(init_prethermal,simName,"0000",25);
-thermalize(final_prethermal,simName,"end",25);
+thermalize(init_prethermal,simName,"0000",50);
+thermalize(final_prethermal,simName,"end",50);
 % now there should be crystal files for thermalized particle positions in python/crystals/simName
 % as well as corresponding neighbor files in python/crysNeighbs
 
